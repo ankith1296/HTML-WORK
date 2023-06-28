@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montaga&display=swap");
 
 * {
   margin: 0;
@@ -83,7 +84,8 @@ body {
 .section1-bottom .title {
   margin-top: 50px;
   font-size: 5rem;
-  font-family: "Cinzel", serif;
+  font-family: "Montaga", serif;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -370,6 +372,24 @@ footer {
 /* ---------------------------------------- */
 /* 27-06-2023 */
 
+.hero-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 8rem;
+  transition: transform 0.3s ease;
+}
+
+.hero-button:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
 .image-container {
   width: 400px;
   height: 700px;

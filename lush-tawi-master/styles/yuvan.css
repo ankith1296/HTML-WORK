@@ -13,7 +13,7 @@ body {
 }
 
 .section1 {
-  background-image: url("../assets/images/image2.jpg");
+  background-image: url("../assets/images/4\ Yuvaan\ Hero\ Image.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -212,7 +212,7 @@ body {
 
 /* Footer Styles */
 footer {
-  background-color: #00d0bf;
+  background-color: #246266;
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -297,22 +297,25 @@ footer {
 .section3-top .section-heading {
   font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
-  color: #e4cd00;
+  color: #b98a10;
   margin-bottom: 20px;
-  text-decoration: solid underline;
+  text-decoration: solid;
 }
 .section3-top .section-sub-heading {
   font-size: 1.5rem;
   font-family: Cinzel, serif;
-  font-family: Cinzel, serif;
+
   color: #000000;
   margin-bottom: 20px;
+  margin-top: 1rem;
+  margin-right: 10px;
   font-weight: bold;
 }
 .section3-top .section-description {
   font-size: 1.5rem;
   font-family: "Poppins", serif;
-  color: #000000;
+  color: #888;
+  padding: 1rem;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -330,13 +333,14 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgb(154, 212, 193);
+  background-color: rgb(255, 255, 255);
   margin: 10px 20px 20px 20px;
 }
 .section3-bottom-left {
   flex: 1.5;
   width: 100%;
   height: 100%;
+  margin-right: 16px;
   background-image: url("../assets/images/image5.jpg");
   background-size: cover;
   background-position: center;
@@ -344,6 +348,7 @@ footer {
 .section3-bottom-right {
   flex: 1;
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -353,6 +358,8 @@ footer {
 .section3-bottom-right-top {
   width: 100%;
   height: 100%;
+  padding-left: 8px;
+  margin-bottom: 16px;
   background-image: url("../assets/images/image4.jpg");
   background-size: cover;
   background-position: center;
@@ -362,6 +369,7 @@ footer {
 .section3-bottom-right-bottom {
   width: 100%;
   height: 100%;
+  padding-left: 8px;
   flex: 1;
   background-image: url("../assets/images/image3.jpg");
   background-size: cover;
@@ -370,9 +378,98 @@ footer {
 
 /* ------------------------------------ */
 /* 27-05-2023 */
+.hero-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 8rem;
+  transition: transform 0.3s ease;
+}
 
+.hero-button:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
 .pricing {
   font-family: "Montserrat", sans-serif;
+}
+.section-hero {
+  background-image: url("../assets/images/Maldives\ Hero\ Image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-hero-seychelles {
+  background-image: url("../assets/images/Seychelles\ hero\ Image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.section-hero-uae {
+  background-image: url("../assets/images/UAE\ Hero\ Image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-hero-bali {
+  background-image: url("../assets/images/Bali\ Hero\ Image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title .title {
+  margin-top: 10rem;
+  font-size: 5rem;
+
+  font-family: "Montaga", serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section-title-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+  padding: 0% 15%;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.section-sub-heading-box {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  border-top: 2px solid #b98a10;
+  width: 20rem;
 }
 
 /* ------------------------------------ */
