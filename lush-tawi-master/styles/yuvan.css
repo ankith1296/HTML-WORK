@@ -315,7 +315,7 @@ footer {
   font-size: 1.5rem;
   font-family: "Poppins", serif;
   color: #888;
-  padding: 1rem;
+  padding: 2rem 25rem;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -469,7 +469,7 @@ footer {
 
 .line {
   border-top: 2px solid #b98a10;
-  width: 20rem;
+  width: 40rem;
 }
 
 /* ------------------------------------ */

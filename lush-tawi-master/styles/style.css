@@ -19,6 +19,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
+
   display: flex;
   flex-direction: column;
 }
@@ -34,7 +35,7 @@ body {
 }
 
 .section1-top .logo img {
-  height: 100px;
+  height: 7rem;
 }
 
 .section1-top .navigation .hamburger {
